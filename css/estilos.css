@@ -341,7 +341,8 @@ figure {
 }
 
 @media screen and (max-width:1024px){
-  body{
+  .container{
+    padding: 0 1em;
   }
 }
 @media screen and (max-width:767px){
@@ -391,12 +392,54 @@ figure {
   .project-course, .project-date, .project-url{
     margin: 0.4em 0;
   }
+  .event{
+    width: auto;
+    flex-shrink: initial;
+  }
+  .event img{
+    width: 100%;
+  }
+
+  .social-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-size: 40px 40px;
+  }
+
 }
 @media screen and (max-width:480px){
   .project-details{
     width: auto;
     font-size: 12px;
   }
+  
+
+
+  .event-detail{
+    margin: -2em .5em .5em;
+    padding: 1em;
+  }
+
+  .contact{
+    height: auto;
+    text-align: center;
+    display: block;
+    padding: 1em 0em;
+  }
+  .btn-enviar{
+    margin: .5em auto;
+  }
+  .course_foot, .author{
+    width: 100%;
+    text-align: center;
+  }
+  .form-email h3{
+    margin-top: 0;
+  }
+
+
 }
 @media screen and (max-width:320px){
 
